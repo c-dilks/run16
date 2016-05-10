@@ -1,0 +1,7 @@
+dev= 0 chip= 0 chan= 0 ndac= E0 value= 2 
+dev= 0 chip= 0 chan= 0 ndac= E2 value= 81 
+dev= 0 chip= 0 chan= 0 ndac= E4 value= 82 
+dev= 0 chip= 0 chan= 0 ndac= E6 value= 83 
+dev= 0 chip= 0 chan= 0 ndac= E8 value= 84 
+dev= 0 chip= 0 chan= 0 ndac= EA value= 85 
+dev= 0 chip= 0 chan= 0 ndac= EC value= 80 

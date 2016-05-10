@@ -1,0 +1,4 @@
+!HVGetTol $0 
+!rdac $0 $1
+!Sleep 1000
+!radc $0

@@ -1,0 +1,3 @@
+!radc E2
+!Sleep $0
+

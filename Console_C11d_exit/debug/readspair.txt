@@ -1,0 +1,19 @@
+@offmult.txt
+@onchan.txt E2 04
+1 90 1 0
+10
+0 91 1 4
+@onchan.txt E2 00
+
+@onchan.txt E0 04
+1 90 1 0
+10
+0 91 1 4
+@onchan.txt E0 00
+
+@onchan.txt FE 04
+1 90 1 0
+10
+0 91 1 4
+@onchan.txt FE 00
+

@@ -1,0 +1,13 @@
+@flongtest.txt E0
+@flongtest.txt E2
+@flongtest.txt E4
+@flongtest.txt E6
+@flongtest.txt E8
+@flongtest.txt EA
+@flongtest.txt F2
+@flongtest.txt F4
+@flongtest.txt F6
+@flongtest.txt F8
+@flongtest.txt FA
+@flongtest.txt FC
+@flongtest.txt FE

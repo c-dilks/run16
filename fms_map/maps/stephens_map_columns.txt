@@ -1,0 +1,12 @@
+nstb
+chan
+row
+col
+qtCrate
+qtSlot
+qtCard
+qtChan
+id1 // large=lecroy crate; small=board
+id2 // larege=unused;      small=chip
+id3 // large=slot;         small=channel
+id4 // large=chan;         small=address

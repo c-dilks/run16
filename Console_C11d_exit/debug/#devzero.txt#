@@ -1,0 +1,35 @@
+!SETdevice $0
+!setctrl $1 $2
+!sleep 100
+!rdac E0 $3
+!sleep 100
+!rdac E2 $3
+!sleep 100
+!rdac E4 $3
+!sleep 100
+!rdac E6 $3
+!sleep 100
+!rdac E8 $3
+!sleep 100
+!rdac EA $3
+!sleep 100
+!rdac EC $3
+!sleep 100
+!rdac EE $3
+!sleep 100
+!rdac F0 $3
+!sleep 100
+!rdac F2 $3
+!sleep 100
+!rdac F4 $3
+!sleep 100
+!rdac F6 $3
+!sleep 100
+!rdac F8 $3
+!sleep 100
+!rdac FA $3
+!sleep 100
+!rdac FC $3
+!sleep 100
+!rdac FE $3
+!sleep 100

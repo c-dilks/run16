@@ -1,0 +1,37 @@
+!rdac E0 $0
+!rdac E2 $0
+!rdac E4 $0
+!rdac E6 $0
+!rdac E8 $0
+!rdac EA $0
+!rdac EC $0
+!rdac EE $0
+!rdac F0 $0
+!rdac F2 $0
+!rdac F4 $0
+!rdac F6 $0
+!rdac F8 $0
+!rdac FA $0
+!rdac FC $0
+!rdac FE $0
+!Sleep $1
+
+@s3.txt E0
+@s3.txt E2 
+@s3.txt E4 
+@s3.txt E6
+@s3.txt E8
+@s3.txt EA 
+@s3.txt EC 
+@s3.txt EE
+@s3.txt F0
+@s3.txt F2 
+@s3.txt F4
+@s3.txt F6
+@s3.txt F8
+@s3.txt FA
+@s3.txt FC
+@s3.txt FE
+
+
+

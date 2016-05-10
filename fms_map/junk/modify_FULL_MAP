@@ -1,0 +1,15 @@
+#!/bin/bash
+
+> modded
+while read line; do
+  nstb=$(echo $line | awk '{print $1}')
+  add=$(echo $line | awk '{print $15}')
+  if [ $nstb -lt 3 ]; then
+    echo "$line 0" >> modded
+  else
+    echo $line | sed "s/0x.*$/0 $add/g" >> modded
+  fi
+done < FULL_MAP
+
+    
+

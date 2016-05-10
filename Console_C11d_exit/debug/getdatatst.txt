@@ -1,0 +1,16 @@
+!PSUbase
+!HVGetTol E8
+!radc E8
+!Sleep 500
+!rdac E8 83
+!rdac E8
+!radc E8 
+!Sleep 10000
+!radc E8
+!Sleep 500
+!rdac E8 84
+!rdac E8
+!radc E8 
+!Sleep 10000
+!radc E8
+!Sleep 500

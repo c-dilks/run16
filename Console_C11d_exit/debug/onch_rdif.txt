@@ -1,0 +1,11 @@
+@onchan.txt $0 04
+@rdif.txt
+@rdac.txt $1
+1 90 1 0
+11
+0 91 1 4
+1 90 1 0
+10
+0 91 1 4
+@onchan.txt $0 00
+

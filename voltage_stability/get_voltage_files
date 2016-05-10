@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  month=$(date +%-m)
+  day=$(date +%-d)
+elif [ $# -eq 2 ]; then
+  month=$1
+  day=$2
+else
+  echo "usage: $0 [month] [day]"
+  exit
+fi
+
+scp dilks@rftpexp.rhic.bnl.gov:~/history_*_${month}.${day} ./

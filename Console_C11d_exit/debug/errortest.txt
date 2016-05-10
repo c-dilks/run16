@@ -1,0 +1,145 @@
+@offmult.txt
+@onchan.txt E0 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt E0 00
+@onchan.txt E2 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt E2 00
+@onchan.txt E4 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt E4 00
+@onchan.txt E6 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt E6 00
+@onchan.txt E8 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt E8 00
+@onchan.txt EA 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt EA 00
+@onchan.txt EC 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt EC 00
+@onchan.txt EE 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt EE 00
+@onchan.txt F0 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 10
+@onchan.txt F0 00
+@onchan.txt F2 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt F2 00
+@onchan.txt F4 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt F4 00
+@onchan.txt F6 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt F6 00
+@onchan.txt F8 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt F8 00
+@onchan.txt FA 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt FA 00
+@onchan.txt FC 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt FC 00
+@onchan.txt FE 04
+0 31 1 0
+1 30 1 0
+3E
+0 31 2 0
+1 90 1 0
+10
+0 91 1 5
+@onchan.txt FE 00

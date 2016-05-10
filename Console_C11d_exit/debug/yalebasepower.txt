@@ -1,0 +1,19 @@
+Yale Base Power Consumption
+
+At Control Voltage set to 6V
+
+Control Voltage
+7.8 mW
+
++24
+120 mW
+
++6
+19.8 mW
+
+-6
+45 mW
+
+Total
+192.6 mW
+

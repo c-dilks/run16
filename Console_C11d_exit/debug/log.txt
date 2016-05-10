@@ -1,0 +1,18 @@
+@offmult.txt               
+ offmult.txt[1,0]: Sleep 1000 milliseconds 
+offmult.txt[2,0]: Type=1,Addr=E0,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[3,0]: Type=1,Addr=E2,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[4,0]: Type=1,Addr=E4,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[5,0]: Type=1,Addr=E6,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[6,0]: Type=1,Addr=E8,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[7,0]: Type=1,Addr=EA,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[8,0]: Type=1,Addr=EC,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[9,0]: Type=1,Addr=EE,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[10,0]: Type=1,Addr=F0,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[11,0]: Type=1,Addr=F2,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[12,0]: Type=1,Addr=F4,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[13,0]: Type=1,Addr=F6,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[14,0]: Type=1,Addr=F8,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[15,0]: Type=1,Addr=FA,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[16,0]: Type=1,Addr=FC,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[17,0]: Type=1,Addr=FE,N attempt=2, N r/w=-2;  ,1 ,0 

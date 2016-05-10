@@ -1,0 +1,35 @@
+!setctrl 3 3
+!sleep 100
+!rdac E0 0x6C
+!sleep 100
+!rdac E2 0xFD
+!sleep 100
+!rdac E4 0xE7
+!sleep 100
+!rdac E6 0xEA
+!sleep 100
+!rdac E8 0xEB
+!sleep 100
+!rdac EA 0xF3
+!sleep 100
+!rdac EC 0xF1
+!sleep 100
+!rdac EE 0xDC
+!sleep 100
+!rdac F0 0xCB
+!sleep 100
+!rdac F2 0xF9
+!sleep 100
+!rdac F4 0xD4
+!sleep 100
+!rdac F6 0xC6
+!sleep 100
+!rdac F8 0x6A
+!sleep 100
+!rdac FA 0xF8
+!sleep 100
+!rdac FC 0xAA
+!sleep 100
+!rdac FE 0xF0
+!sleep 100
+!setctrl 3 4

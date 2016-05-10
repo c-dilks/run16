@@ -1,0 +1,70 @@
+!SETdevice 0
+!setctrl $0 $1
+!sleep 100
+!rdac E0 A0
+!sleep 100
+!rdac E2 A0
+!sleep 100
+!rdac E4 A0
+!sleep 100
+!rdac E6 A0
+!sleep 100
+!rdac E8 A0
+!sleep 100
+!rdac EA A0
+!sleep 100
+!rdac EC A0
+!sleep 100
+!rdac EE A0
+!sleep 100
+!rdac F0 A0
+!sleep 100
+!rdac F2 A0
+!sleep 100
+!rdac F4 A0
+!sleep 100
+!rdac F6 A0
+!sleep 100
+!rdac F8 A0
+!sleep 100
+!rdac FA A0
+!sleep 100
+!rdac FC A0
+!sleep 100
+!rdac FE A0
+!sleep 100
+!SETdevice 1
+!setctrl $0 $1
+!sleep 100
+!rdac E0 A0
+!sleep 100
+!rdac E2 A0
+!sleep 100
+!rdac E4 A0
+!sleep 100
+!rdac E6 A0
+!sleep 100
+!rdac E8 A0
+!sleep 100
+!rdac EA A0
+!sleep 100
+!rdac EC A0
+!sleep 100
+!rdac EE A0
+!sleep 100
+!rdac F0 A0
+!sleep 100
+!rdac F2 A0
+!sleep 100
+!rdac F4 A0
+!sleep 100
+!rdac F6 A0
+!sleep 100
+!rdac F8 A0
+!sleep 100
+!rdac FA A0
+!sleep 100
+!rdac FC A0
+!sleep 100
+!rdac FE A0
+!sleep 100

@@ -1,0 +1,13 @@
+Run15_readiness_christie.pdf
+HVscan/16*/*
+HVscan/15*/*
+HVscan/adc_dists*/*.png
+HVscan/gain_curves*/*.png
+voltage_stability/history*
+voltage_stability/monitor*.pdf
+voltage_stability/summary*.pdf
+voltage_stability/rootfile*.root
+voltage_stability/master
+*.swp
+fms_hv_notes
+fms_map/images_for_paper/*

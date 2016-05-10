@@ -1,0 +1,18 @@
+!setctrl $0 0
+!power
+!power $1
+!sleep 1000
+!setctrl $0 1
+!power
+!power $1
+!sleep 1000
+!setctrl $0 2
+!sleep 1000 
+!power
+!power $1
+!sleep 1000
+!setctrl $0 3
+!power
+!power $1
+!sleep 1000
+

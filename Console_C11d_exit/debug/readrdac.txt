@@ -1,0 +1,20 @@
+@offmult.txt
+@onchan.txt E4 04
+0 31 1 0
+@onchan.txt E4 00
+@onchan.txt E6 04
+0 31 1 0
+@onchan.txt E6 00
+@onchan.txt E8 04
+0 31 1 0
+@onchan.txt E8 00
+@onchan.txt EA 04
+0 31 1 0
+@onchan.txt EA 00
+@onchan.txt EC 04
+0 31 1 0
+@onchan.txt EC 00
+@onchan.txt EE 04
+0 31 1 0
+@onchan.txt EE 00
+@offmult.txt : 5E 0 80 5E (-1676.2V) PSU

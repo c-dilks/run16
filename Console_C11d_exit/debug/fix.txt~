@@ -1,0 +1,35 @@
+!SETdevice 0
+!setctrl 1 2
+!sleep 100
+!rdac FE 0xA3
+!sleep 100
+!rdac F6 0x43
+!sleep 100
+!rdac EE 0x7D
+!sleep 100
+!rdac E6 0xC3
+!sleep 100
+!rdac FC 0x56
+!sleep 100
+!rdac F4 0x66
+!sleep 100
+!rdac EC 0x32
+!sleep 100
+!rdac E4 0x7E
+!sleep 100
+!rdac FA 0x70
+!sleep 100
+!rdac F2 0x68
+!sleep 100
+!rdac EA 0x59
+!sleep 100
+!rdac E2 0xB6
+!sleep 100
+!rdac F8 0x6B
+!sleep 100
+!rdac F0 0x85
+!sleep 100
+!rdac E8 0x84
+!sleep 100
+!rdac E0 0xA4
+!sleep 100

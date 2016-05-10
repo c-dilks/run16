@@ -1,0 +1,6 @@
+!SETdevice $0
+!setctrl $1 $2
+!rdac $3 $4
+!sleep 500
+!radc $3
+!sleep 500

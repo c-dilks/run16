@@ -1,0 +1,203 @@
+@offmult.txt               
+offmult.txt[1,0]: Type=1,Addr=E0,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[2,0]: Type=1,Addr=E2,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[3,0]: Type=1,Addr=E4,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[4,0]: Type=1,Addr=E6,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[5,0]: Type=1,Addr=E8,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[6,0]: Type=1,Addr=EA,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[7,0]: Type=1,Addr=EC,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[8,0]: Type=1,Addr=EE,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[9,0]: Type=1,Addr=F0,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[10,0]: Type=1,Addr=F2,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[11,0]: Type=1,Addr=F4,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[12,0]: Type=1,Addr=F6,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[13,0]: Type=1,Addr=F8,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[14,0]: Type=1,Addr=FA,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[15,0]: Type=1,Addr=FC,N attempt=2, N r/w=-2;  ,1 ,0 
+offmult.txt[16,0]: Type=1,Addr=FE,N attempt=2, N r/w=-2;  ,1 ,0 
+ScriptRepeat set to 1000
+@getdata.txt               
+Base Type PSU 
+ getdata.txt[2,0]: HV Update chan= E8  
+ getdata.txt[3,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[4,0]: Sleep 500 milliseconds 
+ getdata.txt[5,0]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[6,0]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[7,0]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[8,0]: Sleep 600000 milliseconds 
+ getdata.txt[9,0]: radc chan= E8 : 36 3 80 36 (-1484.6V) PSU
+ getdata.txt[10,0]: Sleep 500 milliseconds 
+ getdata.txt[11,0]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[12,0]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[13,0]: radc chan= E8 : 36 3 80 36 (-1484.6V) PSU
+ getdata.txt[14,0]: Sleep 300000 milliseconds 
+ getdata.txt[15,0]: radc chan= E8 : 38 1 80 36 (-1494.2V) PSU
+ getdata.txt[16,0]: Sleep 500 milliseconds 
+ getdata.txt[17,0]: rdac chan= E8 : volitile=85 (-1489.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[18,0]: rdac chan= E8 : volitile=85 (-1489.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[19,0]: radc chan= E8 : 36 1 80 38 (-1484.6V) PSU
+ getdata.txt[20,0]: Sleep 300000 milliseconds 
+ getdata.txt[21,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[22,0]: Sleep 500 milliseconds 
+ getdata.txt[23,0]: rdac chan= E8 : volitile=86 (-1491.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[24,0]: rdac chan= E8 : volitile=86 (-1491.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[25,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[26,0]: Sleep 300000 milliseconds 
+ getdata.txt[27,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[28,0]: Sleep 500 milliseconds 
+ getdata.txt[29,0]: rdac chan= E8 : volitile=87 (-1493.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[30,0]: rdac chan= E8 : volitile=87 (-1493.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[31,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[32,0]: Sleep 300000 milliseconds 
+ getdata.txt[33,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[34,0]: Sleep 500 milliseconds 
+ getdata.txt[35,0]: rdac chan= E8 : volitile=88 (-1495.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[36,0]: rdac chan= E8 : volitile=88 (-1495.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[37,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[38,0]: Sleep 300000 milliseconds 
+ getdata.txt[39,0]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[40,0]: Sleep 500 milliseconds 
+ getdata.txt[41,0]: rdac chan= E8 : volitile=89 (-1497.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[42,0]: rdac chan= E8 : volitile=89 (-1497.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[43,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[44,0]: Sleep 300000 milliseconds 
+ getdata.txt[45,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[46,0]: Sleep 500 milliseconds 
+ getdata.txt[47,0]: rdac chan= E8 : volitile=8A (-1499.3V) saved=70 (-1447.4V) PSU
+ getdata.txt[48,0]: rdac chan= E8 : volitile=8A (-1499.3V) saved=70 (-1447.4V) PSU
+ getdata.txt[49,0]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[50,0]: Sleep 300000 milliseconds 
+ getdata.txt[51,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[52,0]: Sleep 500 milliseconds 
+ getdata.txt[53,0]: rdac chan= E8 : volitile=8B (-1501.4V) saved=70 (-1447.4V) PSU
+ getdata.txt[54,0]: rdac chan= E8 : volitile=8B (-1501.4V) saved=70 (-1447.4V) PSU
+ getdata.txt[55,0]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[56,0]: Sleep 300000 milliseconds 
+reopen script 
+Base Type PSU 
+ getdata.txt[2,1]: HV Update chan= E8  
+ getdata.txt[3,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[4,1]: Sleep 500 milliseconds 
+ getdata.txt[5,1]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[6,1]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[7,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[8,1]: Sleep 600000 milliseconds 
+ getdata.txt[9,1]: radc chan= E8 : 36 1 80 36 (-1484.6V) PSU
+ getdata.txt[10,1]: Sleep 500 milliseconds 
+ getdata.txt[11,1]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[12,1]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[13,1]: radc chan= E8 : 36 1 80 36 (-1484.6V) PSU
+ getdata.txt[14,1]: Sleep 300000 milliseconds 
+ getdata.txt[15,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[16,1]: Sleep 500 milliseconds 
+ getdata.txt[17,1]: rdac chan= E8 : volitile=85 (-1489.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[18,1]: rdac chan= E8 : volitile=85 (-1489.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[19,1]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[20,1]: Sleep 300000 milliseconds 
+ getdata.txt[21,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[22,1]: Sleep 500 milliseconds 
+ getdata.txt[23,1]: rdac chan= E8 : volitile=86 (-1491.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[24,1]: rdac chan= E8 : volitile=86 (-1491.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[25,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[26,1]: Sleep 300000 milliseconds 
+ getdata.txt[27,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[28,1]: Sleep 500 milliseconds 
+ getdata.txt[29,1]: rdac chan= E8 : volitile=87 (-1493.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[30,1]: rdac chan= E8 : volitile=87 (-1493.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[31,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[32,1]: Sleep 300000 milliseconds 
+ getdata.txt[33,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[34,1]: Sleep 500 milliseconds 
+ getdata.txt[35,1]: rdac chan= E8 : volitile=88 (-1495.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[36,1]: rdac chan= E8 : volitile=88 (-1495.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[37,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[38,1]: Sleep 300000 milliseconds 
+ getdata.txt[39,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[40,1]: Sleep 500 milliseconds 
+ getdata.txt[41,1]: rdac chan= E8 : volitile=89 (-1497.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[42,1]: rdac chan= E8 : volitile=89 (-1497.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[43,1]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[44,1]: Sleep 300000 milliseconds 
+ getdata.txt[45,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[46,1]: Sleep 500 milliseconds 
+ getdata.txt[47,1]: rdac chan= E8 : volitile=8A (-1499.3V) saved=70 (-1447.4V) PSU
+ getdata.txt[48,1]: rdac chan= E8 : volitile=8A (-1499.3V) saved=70 (-1447.4V) PSU
+ getdata.txt[49,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[50,1]: Sleep 300000 milliseconds 
+ getdata.txt[51,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[52,1]: Sleep 500 milliseconds 
+ getdata.txt[53,1]: rdac chan= E8 : volitile=8B (-1501.4V) saved=70 (-1447.4V) PSU
+ getdata.txt[54,1]: rdac chan= E8 : volitile=8B (-1501.4V) saved=70 (-1447.4V) PSU
+ getdata.txt[55,1]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[56,1]: Sleep 300000 milliseconds 
+reopen script 
+Base Type PSU 
+ getdata.txt[2,2]: HV Update chan= E8  
+ getdata.txt[3,2]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[4,2]: Sleep 500 milliseconds 
+ getdata.txt[5,2]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[6,2]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[7,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[8,2]: Sleep 600000 milliseconds 
+ getdata.txt[9,2]: radc chan= E8 : 36 1 80 36 (-1484.6V) PSU
+ getdata.txt[10,2]: Sleep 500 milliseconds 
+ getdata.txt[11,2]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[12,2]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[13,2]: radc chan= E8 : 36 1 80 36 (-1484.6V) PSU
+ getdata.txt[14,2]: Sleep 300000 milliseconds 
+ getdata.txt[15,2]: radc chan= E8 : 38 3 80 38 (-1494.2V) PSU
+ getdata.txt[16,2]: Sleep 500 milliseconds 
+ getdata.txt[17,2]: rdac chan= E8 : volitile=85 (-1489.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[18,2]: rdac chan= E8 : volitile=85 (-1489.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[19,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[20,2]: Sleep 300000 milliseconds 
+ getdata.txt[21,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[22,2]: Sleep 500 milliseconds 
+ getdata.txt[23,2]: rdac chan= E8 : volitile=86 (-1491.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[24,2]: rdac chan= E8 : volitile=86 (-1491.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[25,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[26,2]: Sleep 300000 milliseconds 
+ getdata.txt[27,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[28,2]: Sleep 500 milliseconds 
+ getdata.txt[29,2]: rdac chan= E8 : volitile=87 (-1493.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[30,2]: rdac chan= E8 : volitile=87 (-1493.1V) saved=70 (-1447.4V) PSU
+ getdata.txt[31,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[32,2]: Sleep 300000 milliseconds 
+ getdata.txt[33,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[34,2]: Sleep 500 milliseconds 
+ getdata.txt[35,2]: rdac chan= E8 : volitile=88 (-1495.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[36,2]: rdac chan= E8 : volitile=88 (-1495.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[37,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[38,2]: Sleep 300000 milliseconds 
+ getdata.txt[39,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[40,2]: Sleep 500 milliseconds 
+ getdata.txt[41,2]: rdac chan= E8 : volitile=89 (-1497.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[42,2]: rdac chan= E8 : volitile=89 (-1497.2V) saved=70 (-1447.4V) PSU
+ getdata.txt[43,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[44,2]: Sleep 300000 milliseconds 
+ getdata.txt[45,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[46,2]: Sleep 500 milliseconds 
+ getdata.txt[47,2]: rdac chan= E8 : volitile=8A (-1499.3V) saved=70 (-1447.4V) PSU
+ getdata.txt[48,2]: rdac chan= E8 : volitile=8A (-1499.3V) saved=70 (-1447.4V) PSU
+ getdata.txt[49,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[50,2]: Sleep 300000 milliseconds 
+ getdata.txt[51,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[52,2]: Sleep 500 milliseconds 
+ getdata.txt[53,2]: rdac chan= E8 : volitile=8B (-1501.4V) saved=70 (-1447.4V) PSU
+ getdata.txt[54,2]: rdac chan= E8 : volitile=8B (-1501.4V) saved=70 (-1447.4V) PSU
+ getdata.txt[55,2]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[56,2]: Sleep 300000 milliseconds 
+reopen script 
+Base Type PSU 
+ getdata.txt[2,3]: HV Update chan= E8  
+ getdata.txt[3,3]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[4,3]: Sleep 500 milliseconds 
+ getdata.txt[5,3]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[6,3]: rdac chan= E8 : volitile=83 (-1485.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[7,3]: radc chan= E8 : 38 1 80 38 (-1494.2V) PSU
+ getdata.txt[8,3]: Sleep 600000 milliseconds 
+ getdata.txt[9,3]: radc chan= E8 : 36 1 80 36 (-1484.6V) PSU
+ getdata.txt[10,3]: Sleep 500 milliseconds 
+ getdata.txt[11,3]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[12,3]: rdac chan= E8 : volitile=84 (-1487.0V) saved=70 (-1447.4V) PSU
+ getdata.txt[13,3]: radc chan= E8 : 36 1 80 36 (-1484.6V) PSU

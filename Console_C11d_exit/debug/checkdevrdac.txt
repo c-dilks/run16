@@ -1,0 +1,22 @@
+!SETdevice $0
+
+@checkrdacchch.txt 0 0 
+@checkrdacchch.txt 0 1
+@checkrdacchch.txt 0 2
+@checkrdacchch.txt 0 3
+
+@checkrdacchch.txt 1 0 
+@checkrdacchch.txt 1 1
+@checkrdacchch.txt 1 2
+@checkrdacchch.txt 1 3
+
+@checkrdacchch.txt 2 0 
+@checkrdacchch.txt 2 1
+@checkrdacchch.txt 2 2
+@checkrdacchch.txt 2 3
+
+@checkrdacchch.txt 3 0
+@checkrdacchch.txt 3 1
+@checkrdacchch.txt 3 2
+@checkrdacchch.txt 3 3
+

@@ -1,0 +1,6 @@
+!PSUbase
+!rdac E8
+!ScriptRepeat 2
+@test3.txt
+!Sleep 2000
+

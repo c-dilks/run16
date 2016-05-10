@@ -1,0 +1,11 @@
+nstb
+row
+col
+chan
+pp
+pprow
+ppcol
+qtcrate
+qtslot
+qtcard
+qtchan

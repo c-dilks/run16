@@ -1,0 +1,98 @@
+!PSUbase
+!HVGetTol E8
+!radc E8
+!Sleep 500
+!rdac E8 83
+!rdac E8
+!radc E8 
+!Sleep 600000
+!radc E8
+!Sleep 500
+!rdac E8 84
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 85
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 86
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 87
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 88
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 89
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 8A
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 8B
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 8C
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 8D
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 8E
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 8F
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 90
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 91
+!rdac E8
+!radc E8 
+!Sleep 300000
+!radc E8
+!Sleep 500
+!rdac E8 92
+!rdac E8
+!radc E8 
+!Sleep 300000

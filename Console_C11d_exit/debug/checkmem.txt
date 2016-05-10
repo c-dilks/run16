@@ -1,0 +1,11 @@
+!SETdevice 0
+@checkmemchp.txt 0
+@checkmemchp.txt 1
+@checkmemchp.txt 2
+@checkmemchp.txt 3
+
+!SETdevice 1
+@checkmemchp.txt 0
+@checkmemchp.txt 1
+@checkmemchp.txt 2
+@checkmemchp.txt 3

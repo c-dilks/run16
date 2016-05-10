@@ -1,0 +1,1331 @@
+@offmult.txt               
+offmult.txt[1,0]: Type=1,Addr=E0,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[2,0]: Type=1,Addr=E2,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[3,0]: Type=1,Addr=E4,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[4,0]: Type=1,Addr=E6,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[5,0]: Type=1,Addr=E8,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[6,0]: Type=1,Addr=EA,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[7,0]: Type=1,Addr=EC,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[8,0]: Type=1,Addr=EE,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[9,0]: Type=1,Addr=F0,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[10,0]: Type=1,Addr=F2,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[11,0]: Type=1,Addr=F4,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[12,0]: Type=1,Addr=F6,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[13,0]: Type=1,Addr=F8,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[14,0]: Type=1,Addr=FA,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[15,0]: Type=1,Addr=FC,N attempt=2, N r/w=2*  ,1 ,0 
+offmult.txt[16,0]: Type=1,Addr=FE,N attempt=2, N r/w=2*  ,1 ,0 
+@s1.txt               
+Base Type PSU 
+@s2.txt 01 60000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=1 (-1253.5V) saved=80 (-1474.4V) PSU
+ s2.txt[17,0]: Sleep 60000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=1 (-1255.7V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 3 0 80 3 (-1240.4V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=1 (-1252.2V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 4 1 80 4 (-1245.2V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=1 (-1208.1V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : FC 1 80 FC (-1206.8V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=1 (-1259.9V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 3 0 80 3 (-1240.4V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=1 (-1257.2V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 0 0 80 0 (-1226.0V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=1 (-1260.0V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 3 FF 80 3 (-1240.4V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=1 (-1259.9V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 0 FF 80 0 (-1226.0V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=1 (-1203.7V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : F8 0 80 F8 (-1187.7V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=1 (-1205.1V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : FC 1 80 FC (-1206.8V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=1 (-1204.3V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : F8 1 80 F8 (-1187.7V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=1 (-1259.2V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 3 0 80 3 (-1240.4V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=1 (-1259.5V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 7 1 80 7 (-1259.5V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=1 (-1201.7V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : FC 1 80 FC (-1206.8V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=1 (-1203.5V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : F8 3 80 F8 (-1187.7V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=1 (-1265.8V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 6 1 80 6 (-1254.7V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=1 (-1207.1V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : FC 1 80 FC (-1206.8V) PSU
+@s2.txt 11 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=11 (-1279.9V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 7 0 80 7 (-1259.5V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=11 (-1276.4V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 9 1 80 9 (-1269.1V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=11 (-1233.5V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 0 1 80 0 (-1226.0V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=11 (-1284.0V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 7 0 80 7 (-1259.5V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=11 (-1281.3V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 7 0 80 7 (-1259.5V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=11 (-1284.0V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 7 FF 80 7 (-1259.5V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=11 (-1283.9V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 7 FF 80 7 (-1259.5V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=11 (-1229.2V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : FE 0 80 FE (-1216.4V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=11 (-1230.5V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 0 1 80 0 (-1226.0V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=11 (-1229.7V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : FF 1 80 FF (-1221.2V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=11 (-1283.2V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 7 0 80 7 (-1259.5V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=11 (-1283.6V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : C 1 80 C (-1283.5V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=11 (-1227.2V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 0 1 80 0 (-1226.0V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=11 (-1229.0V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : FF 3 80 FF (-1221.2V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=11 (-1289.7V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 9 1 80 9 (-1269.1V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=11 (-1232.5V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 0 1 80 0 (-1226.0V) PSU
+@s2.txt 21 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=21 (-1304.9V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : E 0 80 E (-1293.0V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=21 (-1301.6V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : F 1 80 F (-1297.8V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=21 (-1260.0V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 7 1 80 7 (-1259.5V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=21 (-1308.9V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : E 0 80 E (-1293.0V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=21 (-1306.3V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : C 0 80 C (-1283.5V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=21 (-1309.0V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : E FF 80 E (-1293.0V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=21 (-1308.9V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : C FF 80 C (-1283.5V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=21 (-1255.8V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 1 0 80 1 (-1230.8V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=21 (-1257.0V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 7 1 80 7 (-1259.5V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=21 (-1256.3V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 3 1 80 3 (-1240.4V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=21 (-1308.2V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : E 0 80 E (-1293.0V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=21 (-1308.5V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 10 1 80 10 (-1302.6V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=21 (-1253.8V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 6 1 80 7 (-1254.7V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=21 (-1255.6V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 3 1 80 3 (-1240.4V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=21 (-1314.5V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : F 1 80 F (-1297.8V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=21 (-1259.0V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 7 1 80 7 (-1259.5V) PSU
+@s2.txt 31 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=31 (-1331.0V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 11 0 80 11 (-1307.4V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=31 (-1327.8V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 13 1 80 13 (-1317.0V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=31 (-1287.5V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : C 1 80 C (-1283.5V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=31 (-1334.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 11 0 80 11 (-1307.4V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=31 (-1332.3V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : F 0 80 F (-1297.8V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=31 (-1334.9V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 11 FF 80 11 (-1307.4V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=31 (-1334.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : F FF 80 F (-1297.8V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=31 (-1283.5V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 7 0 80 7 (-1259.5V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=31 (-1284.7V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : C 1 80 C (-1283.5V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=31 (-1283.9V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 8 1 80 8 (-1264.3V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=31 (-1334.1V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 13 0 80 13 (-1317.0V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=31 (-1334.4V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 18 1 80 18 (-1340.9V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=31 (-1281.6V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : C 1 80 C (-1283.5V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=31 (-1283.3V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 8 1 80 8 (-1264.3V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=31 (-1340.2V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 14 1 80 13 (-1321.8V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=31 (-1286.6V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : C 1 80 C (-1283.5V) PSU
+@s2.txt 41 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=41 (-1358.1V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 18 0 80 18 (-1340.9V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=41 (-1355.0V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 19 1 80 19 (-1345.7V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=41 (-1316.3V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 10 1 80 11 (-1302.6V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=41 (-1361.7V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 18 0 80 18 (-1340.9V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=41 (-1359.3V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 18 0 80 18 (-1340.9V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=41 (-1361.8V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 18 FF 80 18 (-1340.9V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=41 (-1361.7V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 18 FF 80 18 (-1340.9V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=41 (-1312.4V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : E 0 80 E (-1293.0V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=41 (-1313.5V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 11 1 80 11 (-1307.4V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=41 (-1312.8V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : F 1 80 F (-1297.8V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=41 (-1361.1V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 18 0 80 18 (-1340.9V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=41 (-1361.4V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 1C 1 80 1C (-1360.1V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=41 (-1310.5V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 10 1 80 10 (-1302.6V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=41 (-1312.2V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : F 3 80 F (-1297.8V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=41 (-1366.9V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 19 1 80 19 (-1345.7V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=41 (-1315.4V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 10 1 80 10 (-1302.6V) PSU
+@s2.txt 51 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=51 (-1386.2V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 1E 0 80 1E (-1369.7V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=51 (-1383.3V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 1F 1 80 1F (-1374.5V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=51 (-1346.3V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 18 1 80 18 (-1340.9V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=51 (-1389.7V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 1E 0 80 1E (-1369.7V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=51 (-1387.4V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 1C 0 80 1C (-1360.1V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=51 (-1389.8V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 1E FF 80 1E (-1369.7V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=51 (-1389.7V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 1C FF 80 1C (-1360.1V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=51 (-1342.6V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 13 0 80 13 (-1317.0V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=51 (-1343.7V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 18 1 80 18 (-1340.9V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=51 (-1343.0V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 16 1 80 16 (-1331.4V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=51 (-1389.1V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 1E 0 80 1F (-1369.7V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=51 (-1389.4V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 21 1 80 21 (-1384.0V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=51 (-1340.8V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 18 1 80 18 (-1340.9V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=51 (-1342.4V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 16 1 80 16 (-1331.4V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=51 (-1394.6V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 1F 1 80 1F (-1374.5V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=51 (-1345.4V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 18 1 80 18 (-1340.9V) PSU
+@s2.txt 61 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=61 (-1415.5V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 23 0 80 23 (-1393.6V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=61 (-1412.7V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 26 1 80 26 (-1408.0V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=61 (-1377.7V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 1F 1 80 1F (-1374.5V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=61 (-1418.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 23 0 80 23 (-1393.6V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=61 (-1416.7V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 20 0 80 20 (-1379.3V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=61 (-1418.9V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 23 FF 80 23 (-1393.6V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=61 (-1418.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 20 FF 80 20 (-1379.3V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=61 (-1374.1V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 19 0 80 19 (-1345.7V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=61 (-1375.2V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 1F 1 80 1F (-1374.5V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=61 (-1374.5V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 1C 1 80 1C (-1360.1V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=61 (-1418.3V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 23 0 80 23 (-1393.6V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=61 (-1418.5V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 27 1 80 27 (-1412.8V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=61 (-1372.5V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 1F 1 80 1F (-1374.5V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=61 (-1373.9V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 1C 3 80 1C (-1360.1V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=61 (-1423.5V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 26 1 80 26 (-1408.0V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=61 (-1376.9V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 1E 1 80 1E (-1369.7V) PSU
+@s2.txt 71 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=71 (-1446.1V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 29 0 80 28 (-1422.4V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=71 (-1443.5V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 2C 1 80 2C (-1436.7V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=71 (-1410.5V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 23 1 80 24 (-1393.6V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=71 (-1449.2V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 28 0 80 28 (-1417.6V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=71 (-1447.2V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 27 0 80 27 (-1412.8V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=71 (-1449.3V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 28 FF 80 28 (-1417.6V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=71 (-1449.2V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 27 FF 80 27 (-1412.8V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=71 (-1407.2V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 1F 0 80 1F (-1374.5V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=71 (-1408.2V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 26 1 80 26 (-1408.0V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=71 (-1407.6V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 21 1 80 21 (-1384.0V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=71 (-1448.6V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 29 0 80 29 (-1422.4V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=71 (-1448.9V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 30 1 80 30 (-1455.9V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=71 (-1405.6V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 24 1 80 23 (-1398.4V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=71 (-1407.0V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 21 1 80 21 (-1384.0V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=71 (-1453.5V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 2C 1 80 2C (-1436.7V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=71 (-1409.8V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 23 1 80 23 (-1393.6V) PSU
+@s2.txt 81 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=81 (-1478.0V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 30 0 80 30 (-1455.9V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=81 (-1475.5V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 31 1 80 31 (-1460.7V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=81 (-1444.9V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 2C 1 80 2C (-1436.7V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=81 (-1480.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 30 0 80 30 (-1455.9V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=81 (-1479.0V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 30 0 80 30 (-1455.9V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=81 (-1480.9V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 30 FF 80 30 (-1455.9V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=81 (-1480.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 30 FF 80 30 (-1455.9V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=81 (-1441.8V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 27 0 80 27 (-1412.8V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=81 (-1442.8V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 2C 1 80 2C (-1436.7V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=81 (-1442.2V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 28 1 80 28 (-1417.6V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=81 (-1480.3V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 30 0 80 30 (-1455.9V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=81 (-1480.6V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 33 1 80 33 (-1470.2V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=81 (-1440.4V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 2C 1 80 2C (-1436.7V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=81 (-1441.7V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 28 1 80 28 (-1417.6V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=81 (-1484.9V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 30 1 80 30 (-1455.9V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=81 (-1444.2V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 2C 1 80 2C (-1436.7V) PSU
+@s2.txt 91 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=91 (-1511.2V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 38 0 80 38 (-1494.2V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=91 (-1509.0V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 38 1 80 38 (-1494.2V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=91 (-1481.0V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 33 1 80 33 (-1470.2V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=91 (-1513.9V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 38 0 80 38 (-1494.2V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=91 (-1512.2V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 33 0 80 33 (-1470.2V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=91 (-1513.9V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 38 FF 80 38 (-1494.2V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=91 (-1513.8V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 33 FF 80 33 (-1470.2V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=91 (-1478.2V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 30 0 80 30 (-1455.9V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=91 (-1479.0V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 33 1 80 33 (-1470.2V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=91 (-1478.5V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 30 1 80 30 (-1455.9V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=91 (-1513.4V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 38 0 80 38 (-1494.2V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=91 (-1513.6V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 3C 1 80 3C (-1513.3V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=91 (-1476.8V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 33 1 80 33 (-1470.2V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=91 (-1478.0V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 30 3 80 30 (-1455.9V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=91 (-1517.5V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 38 1 80 38 (-1494.2V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=91 (-1480.4V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 31 1 80 31 (-1460.7V) PSU
+@s2.txt A1 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=A1 (-1546.0V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 3E 0 80 3E (-1522.9V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=A1 (-1544.0V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 40 1 80 40 (-1532.5V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=A1 (-1518.9V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 3C 1 80 3C (-1513.3V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=A1 (-1548.3V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 3E 0 80 3E (-1522.9V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=A1 (-1546.8V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 3C 0 80 3C (-1513.3V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=A1 (-1548.4V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 40 FF 80 40 (-1532.5V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=A1 (-1548.3V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 3C FF 80 3C (-1513.3V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=A1 (-1516.3V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 38 0 80 38 (-1494.2V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=A1 (-1517.1V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 3C 1 80 3C (-1513.3V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=A1 (-1516.6V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 38 1 80 38 (-1494.2V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=A1 (-1547.9V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 40 0 80 40 (-1532.5V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=A1 (-1548.1V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 41 1 80 41 (-1537.3V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=A1 (-1515.1V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 3C 1 80 3C (-1513.3V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=A1 (-1516.2V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 38 1 80 38 (-1494.2V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=A1 (-1551.6V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 40 1 80 40 (-1532.5V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=A1 (-1518.3V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 39 1 80 3C (-1499.0V) PSU
+@s2.txt B1 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=B1 (-1582.4V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 44 0 80 44 (-1551.7V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=B1 (-1580.6V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 47 1 80 47 (-1566.0V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=B1 (-1558.7V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 41 1 80 41 (-1537.3V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=B1 (-1584.4V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 43 0 80 43 (-1546.9V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=B1 (-1583.1V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 43 0 80 41 (-1546.9V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=B1 (-1584.4V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 43 FF 80 43 (-1546.9V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=B1 (-1584.4V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 41 FF 80 41 (-1537.3V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=B1 (-1556.5V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 40 0 80 40 (-1532.5V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=B1 (-1557.1V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 43 1 80 43 (-1546.9V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=B1 (-1556.7V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 40 1 80 40 (-1532.5V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=B1 (-1584.0V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 46 0 80 46 (-1561.2V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=B1 (-1584.2V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 48 1 80 48 (-1570.8V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=B1 (-1555.4V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 43 1 80 43 (-1546.9V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=B1 (-1556.3V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 40 1 80 40 (-1532.5V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=B1 (-1587.3V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 47 1 80 47 (-1566.0V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=B1 (-1558.2V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 41 1 80 41 (-1537.3V) PSU
+@s2.txt C1 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=C1 (-1620.4V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 4C 0 80 4C (-1590.0V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=C1 (-1619.0V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 4F 1 80 4F (-1604.3V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=C1 (-1600.6V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 4C 1 80 4C (-1590.0V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=C1 (-1622.1V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 4C 0 80 4C (-1590.0V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=C1 (-1621.0V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 49 0 80 49 (-1575.6V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=C1 (-1622.2V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 4C FF 80 4C (-1590.0V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=C1 (-1622.1V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 49 FF 80 49 (-1575.6V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=C1 (-1598.7V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 47 0 80 47 (-1566.0V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=C1 (-1599.3V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 4C 1 80 4C (-1590.0V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=C1 (-1598.9V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 47 1 80 47 (-1566.0V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=C1 (-1621.8V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 4E 0 80 4E (-1599.5V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=C1 (-1622.0V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 50 1 80 50 (-1609.1V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=C1 (-1597.8V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 4C 1 80 4C (-1590.0V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=C1 (-1598.6V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 47 3 80 47 (-1566.0V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=C1 (-1624.5V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 4E 1 80 4E (-1599.5V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=C1 (-1600.2V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 4C 1 80 4C (-1590.0V) PSU
+@s2.txt D1 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=D1 (-1660.3V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 53 0 80 53 (-1623.5V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=D1 (-1659.2V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 58 1 80 58 (-1647.4V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=D1 (-1644.8V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 53 1 80 53 (-1623.5V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=D1 (-1661.7V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 53 0 80 53 (-1623.5V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=D1 (-1660.8V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 51 0 80 51 (-1613.9V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=D1 (-1661.7V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 53 FF 80 53 (-1623.5V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=D1 (-1661.6V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 51 FF 80 51 (-1613.9V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=D1 (-1643.3V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 4F 0 80 4F (-1604.3V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=D1 (-1643.7V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 56 1 80 56 (-1637.9V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=D1 (-1643.5V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 50 1 80 50 (-1609.1V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=D1 (-1661.4V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 53 0 80 53 (-1623.5V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=D1 (-1661.5V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 58 1 80 58 (-1647.4V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=D1 (-1642.6V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 53 1 80 53 (-1623.5V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=D1 (-1643.2V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 50 3 80 50 (-1609.1V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=D1 (-1663.5V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 56 1 80 56 (-1637.9V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=D1 (-1644.4V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 53 1 80 53 (-1623.5V) PSU
+@s2.txt E1 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=E1 (-1702.2V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 5E 0 80 5E (-1676.2V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=E1 (-1701.4V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 60 1 80 60 (-1685.7V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=E1 (-1691.4V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 5E 1 80 5E (-1676.2V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=E1 (-1703.1V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 5C 0 80 5C (-1666.6V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=E1 (-1702.5V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 5C 0 80 5C (-1666.6V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=E1 (-1703.1V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 5E FF 80 5E (-1676.2V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=E1 (-1703.1V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 5C FF 80 5C (-1666.6V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=E1 (-1690.4V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 58 0 80 58 (-1647.4V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=E1 (-1690.7V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 60 1 80 60 (-1685.7V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=E1 (-1690.5V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 5C 1 80 5C (-1666.6V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=E1 (-1702.9V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 5E 0 80 5E (-1676.2V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=E1 (-1703.0V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 60 1 80 60 (-1685.7V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=E1 (-1689.9V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 60 1 80 60 (-1685.7V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=E1 (-1690.3V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 5C 3 80 5C (-1666.6V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=E1 (-1704.4V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 60 1 80 60 (-1685.7V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=E1 (-1691.2V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 5E 1 80 5E (-1676.2V) PSU
+@s2.txt F1 10000         
+ s2.txt[1,0]: rdac chan= E0 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[2,0]: rdac chan= E2 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[3,0]: rdac chan= E4 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[4,0]: rdac chan= E6 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[5,0]: rdac chan= E8 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[6,0]: rdac chan= EA : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[7,0]: rdac chan= EC : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[8,0]: rdac chan= EE : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[9,0]: rdac chan= F0 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[10,0]: rdac chan= F2 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[11,0]: rdac chan= F4 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[12,0]: rdac chan= F6 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[13,0]: rdac chan= F8 : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[14,0]: rdac chan= FA : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[15,0]: rdac chan= FC : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[16,0]: rdac chan= FE : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s2.txt[17,0]: Sleep 10000 milliseconds 
+@s3.txt E0            
+ s3.txt[1,0]: HV Update chan= E0  
+ s3.txt[2,0]: rdac chan= E0 : volitile=F1 (-1746.2V) saved=80 (-1475.9V) PSU
+ s3.txt[3,0]: radc chan= E0 : 66 0 80 66 (-1714.5V) PSU
+@s3.txt E2            
+ s3.txt[1,0]: HV Update chan= E2  
+ s3.txt[2,0]: rdac chan= E2 : volitile=F1 (-1745.8V) saved=80 (-1473.5V) PSU
+ s3.txt[3,0]: radc chan= E2 : 68 1 80 68 (-1724.1V) PSU
+@s3.txt E4            
+ s3.txt[1,0]: HV Update chan= E4  
+ s3.txt[2,0]: rdac chan= E4 : volitile=F1 (-1740.7V) saved=80 (-1442.7V) PSU
+ s3.txt[3,0]: radc chan= E4 : 67 1 80 67 (-1719.3V) PSU
+@s3.txt E6            
+ s3.txt[1,0]: HV Update chan= E6  
+ s3.txt[2,0]: rdac chan= E6 : volitile=F1 (-1746.6V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= E6 : 66 0 80 66 (-1714.5V) PSU
+@s3.txt E8            
+ s3.txt[1,0]: HV Update chan= E8  
+ s3.txt[2,0]: rdac chan= E8 : volitile=F1 (-1746.3V) saved=80 (-1476.9V) PSU
+ s3.txt[3,0]: radc chan= E8 : 63 0 80 63 (-1700.1V) PSU
+@s3.txt EA            
+ s3.txt[1,0]: HV Update chan= EA  
+ s3.txt[2,0]: rdac chan= EA : volitile=F1 (-1746.6V) saved=80 (-1478.9V) PSU
+ s3.txt[3,0]: radc chan= EA : 66 FF 80 66 (-1714.5V) PSU
+@s3.txt EC            
+ s3.txt[1,0]: HV Update chan= EC  
+ s3.txt[2,0]: rdac chan= EC : volitile=F1 (-1746.6V) saved=80 (-1478.8V) PSU
+ s3.txt[3,0]: radc chan= EC : 63 FF 80 63 (-1700.1V) PSU
+@s3.txt EE            
+ s3.txt[1,0]: HV Update chan= EE  
+ s3.txt[2,0]: rdac chan= EE : volitile=F1 (-1740.1V) saved=80 (-1439.6V) PSU
+ s3.txt[3,0]: radc chan= EE : 62 0 80 61 (-1695.3V) PSU
+@s3.txt F0            
+ s3.txt[1,0]: HV Update chan= F0  
+ s3.txt[2,0]: rdac chan= F0 : volitile=F1 (-1740.3V) saved=80 (-1440.5V) PSU
+ s3.txt[3,0]: radc chan= F0 : 67 1 80 68 (-1719.3V) PSU
+@s3.txt F2            
+ s3.txt[1,0]: HV Update chan= F2  
+ s3.txt[2,0]: rdac chan= F2 : volitile=F1 (-1740.2V) saved=80 (-1440.0V) PSU
+ s3.txt[3,0]: radc chan= F2 : 63 1 80 63 (-1700.1V) PSU
+@s3.txt F4            
+ s3.txt[1,0]: HV Update chan= F4  
+ s3.txt[2,0]: rdac chan= F4 : volitile=F1 (-1746.6V) saved=80 (-1478.3V) PSU
+ s3.txt[3,0]: radc chan= F4 : 66 0 80 66 (-1714.5V) PSU
+@s3.txt F6            
+ s3.txt[1,0]: HV Update chan= F6  
+ s3.txt[2,0]: rdac chan= F6 : volitile=F1 (-1746.6V) saved=80 (-1478.5V) PSU
+ s3.txt[3,0]: radc chan= F6 : 6C 1 80 6C (-1743.2V) PSU
+@s3.txt F8            
+ s3.txt[1,0]: HV Update chan= F8  
+ s3.txt[2,0]: rdac chan= F8 : volitile=F1 (-1739.9V) saved=80 (-1438.1V) PSU
+ s3.txt[3,0]: radc chan= F8 : 67 1 80 67 (-1719.3V) PSU
+@s3.txt FA            
+ s3.txt[1,0]: HV Update chan= FA  
+ s3.txt[2,0]: rdac chan= FA : volitile=F1 (-1740.1V) saved=80 (-1439.4V) PSU
+ s3.txt[3,0]: radc chan= FA : 63 1 80 63 (-1700.1V) PSU
+@s3.txt FC            
+ s3.txt[1,0]: HV Update chan= FC  
+ s3.txt[2,0]: rdac chan= FC : volitile=F1 (-1747.3V) saved=80 (-1482.9V) PSU
+ s3.txt[3,0]: radc chan= FC : 67 1 80 67 (-1719.3V) PSU
+@s3.txt FE            
+ s3.txt[1,0]: HV Update chan= FE  
+ s3.txt[2,0]: rdac chan= FE : volitile=F1 (-1740.5V) saved=80 (-1442.0V) PSU
+ s3.txt[3,0]: radc chan= FE : 67 1 80 67 (-1719.3V) PSU

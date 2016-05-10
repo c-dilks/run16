@@ -1,0 +1,22 @@
+!setctrl $0 0
+!power
+!rmem 0 20
+!sleep 1000
+
+!setctrl $0 1
+!power
+!rmem 0 20
+!sleep 1000
+
+!setctrl $0 2
+!power
+!rmem 0 20
+!sleep 1000
+
+!setctrl $0 3
+!power
+!rmem 0 20
+!sleep 1000
+
+!setctrl $0 4
+

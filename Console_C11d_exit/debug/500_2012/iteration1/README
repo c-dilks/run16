@@ -1,0 +1,3 @@
+I noticed that (det, chan, r, c) 1 19 1 1 had a requested
+gain factor of 0, so it came out with voltage 0.
+I manually changed this to -900.

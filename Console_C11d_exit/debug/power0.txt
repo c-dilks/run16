@@ -1,0 +1,8 @@
+!SETdevice 0
+!sleep 1000
+@poweroff.txt 0 $0
+@poweroff.txt 1 $0
+@poweroff.txt 2 $0
+@poweroff.txt 3 $0
+
+

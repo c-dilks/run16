@@ -1,0 +1,19 @@
+!power
+!setctrl $0 $1
+!rdac E0
+!rdac E2
+!rdac E4
+!rdac E6
+!rdac E8
+!rdac EA
+!rdac EC
+!rdac EE
+!rdac F0
+!rdac F2
+!rdac F4
+!rdac F6
+!rdac F8
+!rdac FA
+!rdac FC
+!rdac FE
+!setctrl $0 4

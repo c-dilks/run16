@@ -1,0 +1,19 @@
+@offmult.txt
+!wmem 0 8 PSU__CON
+!Sleep 100
+!wmem 8 8 TROLLER_
+!Sleep 100
+!wmem 10 8 $0____
+!Sleep 100
+!wmem 18 8 ________
+!Sleep 100
+!wmem 20 8 $0$0
+!Sleep 100
+!wmem 28 8 $0$0
+!Sleep 100
+!wmem 30 8 $0$0
+!Sleep 100
+!rmem 0 40
+!Sleep 100
+!rctl
+

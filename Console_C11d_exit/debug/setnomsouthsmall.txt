@@ -1,0 +1,17 @@
+!SETdevice 0
+@dev0chip0chan0.txt
+@dev0chip0chan1.txt
+@dev0chip0chan2.txt
+@dev0chip0chan3.txt
+@dev0chip1chan0.txt
+@dev0chip1chan1.txt
+@dev0chip1chan2.txt
+@dev0chip1chan3.txt
+@dev0chip2chan0.txt
+@dev0chip2chan1.txt
+@dev0chip2chan2.txt
+@dev0chip2chan3.txt
+@dev0chip3chan0.txt
+@dev0chip3chan1.txt
+@dev0chip3chan2.txt
+@dev0chip3chan3.txt

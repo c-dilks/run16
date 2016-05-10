@@ -1,0 +1,68 @@
+#include "StdAfx.h"
+#include "hvset.h"
+
+HVSet::HVSet(void)
+{
+	r1=255000.;
+	r2=40000.;
+	rdac=50000.;
+	vref=1.228;
+	vscale=200.;
+	diodes=.001;
+	correction=1.;
+	strcpy(BaseType,"YALE");
+	BType=2;
+	ModeUsed=0X04;
+}
+
+HVSet::~HVSet(void)
+{
+}
+void HVSet::SetBaseType(char* btype)
+{
+	if(strncmp(btype,"P",1)==0)
+	{
+		BType=1;
+	} else
+	{
+		BType=2;
+	};
+	strcpy(BaseType,btype);
+}
+float HVSet::HV(int val)
+{
+	float trdac=:RDACu/256*(256-val)*correction;
+	float reg=(r1+r2+trdac)/(r2+trdac)*vref;
+	return (reg-diodes)*vscale;
+};
+float HVSet::ADC_HV(char* padcs)
+{
+    float v;
+	if(BType==1)
+	{
+		int adcs=padcs[0];
+		char val=(0x7F & adcs);
+
+		if((0xFF & adcs)==val)
+		{
+			v=(val*vref/256+vref)*1000.;
+		}
+		else
+		{
+			v=((-128+val)*vref/256+vref)*1000.;
+		};
+	}
+	if(BType==2)
+	{
+		int adcs=padcs[0]&0x7F;
+		if((padcs[0]&0x80)!=0){adcs=adcs+128;};
+		if(adcs>254)
+		{
+			adcs=74+(padcs[3]&0x7F);
+			if((padcs[3]&0x80)!=0){adcs=adcs+128;};
+		};
+    	v=(adcs*vref/256)*1000.;
+
+	};
+	return v;
+};
